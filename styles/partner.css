@@ -1,0 +1,28 @@
+.partner-cont {
+  caret-color: rgba(0, 0, 0, 0);
+  @apply container mx-auto relative text-center;
+}
+
+.partner-cont h4 {
+  @apply font-semibold text-4xl mt-6;
+}
+
+.partner-cont .carousel {
+  @apply h-96 w-full flex justify-center items-center mb-10;
+}
+
+.partner-cont .blob{
+  @apply absolute rounded-full mix-blend-multiply filter opacity-70 blur-xl animate-blob;
+}
+
+.partner-logo {
+  @apply mt-10 mb-32 flex flex-col;
+}
+
+.partner-logo > .logo{
+  @apply relative h-52 w-full mb-16 opacity-70;
+}
+
+.partner-logo > span{
+  @apply font-light text-4xl capitalize text-slate-400;
+}

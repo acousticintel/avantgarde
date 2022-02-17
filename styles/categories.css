@@ -1,0 +1,28 @@
+.cat-cont {
+  @apply container mx-auto py-10;
+}
+
+.cat-cont {
+  @apply container mx-auto text-center;
+}
+
+.cat-cont h4 {
+  @apply font-semibold text-4xl my-6;
+}
+
+.cat-sec {
+  @apply flex flex-row flex-wrap gap-6 sm:gap-12;
+}
+
+.cat-card{
+  @apply mx-auto w-52;
+}
+
+.cat-card h6 {
+  @apply my-4 text-lg font-semibold text-center;
+}
+
+.cat-card p {
+  @apply text-sm text-slate-400 font-light px-3
+  text-left;
+}

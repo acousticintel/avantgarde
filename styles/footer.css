@@ -1,0 +1,7 @@
+footer{
+  @apply bg-slate-900 text-white shrink py-6;
+}
+
+footer > .cont{
+  @apply container mx-auto;
+}

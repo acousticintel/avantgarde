@@ -1,0 +1,8 @@
+nav {
+  @apply container mx-auto shrink flex justify-center 
+  py-8 uppercase;
+}
+
+nav > a {
+  @apply px-6;
+}

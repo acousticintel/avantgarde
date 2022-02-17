@@ -1,0 +1,33 @@
+.contact {
+  @apply bg-purple-50;
+}
+
+.contact h4{
+  @apply font-semibold text-4xl mt-6 text-center;
+}
+
+.contact > .cont {
+  @apply container mx-auto overflow-hidden py-6;
+}
+
+.contact form{
+  @apply flex flex-col m-5 p-5;
+}
+
+.contact form label{
+  @apply my-2;
+}
+
+.contact form textarea{
+  @apply h-32 my-2 px-2 py-3 rounded text-slate-900 bg-gray-400 bg-opacity-30;
+}
+
+.contact form input{
+  @apply my-2 px-2 py-3 rounded text-slate-900 bg-gray-400 bg-opacity-30;
+}
+
+.contact form button{
+  @apply bg-black text-white uppercase rounded-full 
+  py-4 px-6 my-5 mx-auto w-full sm:w-48 font-normal 
+  hover:font-semibold transition-all duration-500 ease-out;
+}

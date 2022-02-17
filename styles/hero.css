@@ -1,0 +1,25 @@
+.hero {
+  @apply container mx-auto rounded-3xl overflow-hidden p-6 mb-10
+  bg-purple-50 text-slate-900 grid grid-cols-1 sm:grid-cols-2;
+}
+
+.hero .text{
+  @apply py-10 px-6 flex flex-col justify-center items-center;
+}
+
+.hero .text h1{
+  @apply text-5xl;
+}
+
+.hero .text p{
+  @apply text-lg font-light text-slate-400;
+}
+
+.hero .text button{
+  @apply mt-10 px-6 py-4 rounded-full bg-slate-900 
+  text-white text-xs uppercase;
+}
+
+.hero .content video{
+  @apply w-full h-96 object-cover;
+}
