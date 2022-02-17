@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -63,7 +64,7 @@ export default function Categories() {
     >
       <motion.h4 variants={riseVar}>Top Categories</motion.h4>
       <motion.main variants={cardContVar} className="cat-sec">
-        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js" />
+        <Script  src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js" />
         <motion.div variants={riseVar} className="cat-card">
           <div className="h-40">
             <lord-icon

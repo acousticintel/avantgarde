@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import { useEffect } from "react";
 import Carousel from "framer-motion-carousel";
 import { motion, useAnimation } from "framer-motion";
