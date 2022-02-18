@@ -8,7 +8,7 @@
 }
 
 .partner-cont .carousel {
-  @apply h-96 w-full flex justify-center items-center mb-10;
+  @apply w-full flex justify-center items-center mb-10 overflow-hidden;
 }
 
 .partner-cont .blob{
@@ -20,7 +20,7 @@
 }
 
 .partner-logo > .logo{
-  @apply relative h-52 w-full mb-16 opacity-70;
+  @apply relative h-52 mb-16 opacity-70;
 }
 
 .partner-logo > span{
