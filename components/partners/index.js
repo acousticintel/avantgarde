@@ -63,8 +63,8 @@ export default function Partners() {
       <motion.h4 variants={riseVar}>Partners</motion.h4>
       <motion.div variants={riseVar} className=" absolute right-0 w-full md:w-1/2 h-full">
         <div className="blob top-18 left-0 w-52 h-52 bg-red-300" />
-        <div className="blob top-24 left-20 w-52 h-52 bg-yellow-300 animation-delay-2000" />
-        <div className="blob bottom-16 left-0 w-52 h-52 bg-blue-300 animation-delay-4000" />
+        <div className="blob top-24 left-20 w-52 h-52 bg-blue-300 animation-delay-2000" />
+        <div className="blob bottom-16 left-0 w-52 h-52 bg-pink-300 animation-delay-4000" />
       </motion.div>
       <motion.div variants={riseVar} className="caraousel">
         <Carousel interval={5000}>

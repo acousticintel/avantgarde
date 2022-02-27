@@ -64,10 +64,9 @@ export default function About() {
       className="about"
     >
       <motion.div variants={textVar} className="text">
-        <motion.h1 variants={riseVar}>Explore new skills with us</motion.h1>
+        <motion.h1 variants={riseVar}>Book a meeting with us</motion.h1>
         <motion.p variants={riseVar}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper
-          sapien eu augue consequat suscipit.
+        We are only a calendar schedule away from listening to you and figuring out your new together.
         </motion.p>
         <motion.button variants={riseVar}>Join us</motion.button>
       </motion.div>

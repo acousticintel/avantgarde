@@ -36,7 +36,7 @@ const riseVar = {
     scale: 1,
     transition: {
       duration: 0.25,
-      ease: 'easeOut',
+      ease: "easeOut",
     },
   },
 };
@@ -50,12 +50,14 @@ export default function Hero() {
       className="hero"
     >
       <motion.div variants={textVar} className="text">
-        <motion.h1 variants={riseVar}>Explore new skills with us</motion.h1>
+        <motion.h1 variants={riseVar}>
+          Create your new experience with us
+        </motion.h1>
         <motion.p variants={riseVar}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper
-          sapien eu augue consequat suscipit.
+          We are an innovation and creative agency providing solutions for our
+          clients’ problems.
         </motion.p>
-        <motion.button variants={riseVar}>Join for free</motion.button>
+        <motion.button variants={riseVar}>Contact Us</motion.button>
       </motion.div>
       <motion.div variants={riseVar} className="content">
         <video autoPlay muted loop>

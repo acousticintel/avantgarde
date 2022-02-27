@@ -1,6 +1,18 @@
 nav {
-  @apply container mx-auto shrink flex justify-center 
-  py-8 uppercase;
+  @apply container mx-auto shrink flex py-8 uppercase ;
+}
+
+nav > div {
+  @apply flex my-2 items-center;
+}
+
+
+nav > div:first-child {
+  @apply text-purple-900 flex grow;
+}
+
+nav > div:last-child{
+  @apply flex grow justify-around;
 }
 
 nav > a {
