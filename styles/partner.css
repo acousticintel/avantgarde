@@ -26,3 +26,7 @@
 .partner-logo > span{
   @apply font-light text-4xl capitalize text-slate-400;
 }
+
+.test{
+  @apply rounded-full w-6 h-6 bg-purple-400;
+}

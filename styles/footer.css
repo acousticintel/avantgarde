@@ -3,7 +3,7 @@ footer{
 }
 
 footer > .cont{
-  @apply container mx-auto flex pb-16 pt-8;
+  @apply container mx-auto flex pl-4 pb-16 pt-8;
 }
 
 footer > .cont > div:first-child{

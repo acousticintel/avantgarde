@@ -1,5 +1,5 @@
 nav {
-  @apply container mx-auto shrink flex py-8 uppercase ;
+  @apply container mx-auto shrink flex px-5 py-8 uppercase ;
 }
 
 nav > div {

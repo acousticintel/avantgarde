@@ -39,7 +39,7 @@ body{
 
 /* Handle */
 .custom-scroll::-webkit-scrollbar-thumb {
-  @apply bg-emerald-900 hover:bg-emerald-700 rounded-full 
+  @apply bg-purple-900 hover:bg-purple-700 rounded-full 
   bg-opacity-70 transition-colors duration-500;
 }
 

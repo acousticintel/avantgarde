@@ -1,5 +1,5 @@
 .about {
-  @apply bg-purple-50 rounded-3xl overflow-hidden p-6 mb-10
+  @apply bg-purple-50 overflow-hidden p-6 mb-10
   bg-purple-50 text-slate-900 grid grid-cols-1 sm:grid-cols-2;
 }
 
