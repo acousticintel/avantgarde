@@ -38,8 +38,9 @@ const riseVar = {
 };
 
 const partners = [
-  { name: "google", src: "/assets/google.png" },
   { name: "intel", src: "/assets/intel.png" },
+  { name: "WEE Center", src: "/assets/wee_center.png" },
+  { name: "Generation Kenya", src: "/assets/generation.png" },
 ];
 
 export default function Partners() {
@@ -67,7 +68,11 @@ export default function Partners() {
         <div className="blob bottom-16 left-0 w-52 h-52 bg-pink-300 animation-delay-4000" />
       </motion.div>
       <motion.div variants={riseVar} className="caraousel">
-        <Carousel interval={5000}>
+        <Carousel 
+        interval={5000}
+        renderArrowRight={({handleNext, activeIndex}) => <div />}
+        renderArrowLeft={({handlePrev, activeIndex}) => <div />}
+        >
           {partners.map((p, i) => (
             <div key={i} className="partner-logo">
               <div className="logo">

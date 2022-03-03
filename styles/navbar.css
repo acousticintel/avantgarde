@@ -6,9 +6,8 @@ nav > div {
   @apply flex my-2 items-center;
 }
 
-
 nav > div:first-child {
-  @apply text-purple-900 flex grow;
+  @apply text-orange-600 grow;
 }
 
 nav > div:last-child{
@@ -17,4 +16,12 @@ nav > div:last-child{
 
 nav > a {
   @apply px-6;
+}
+
+nav > .logo > div {
+  @apply relative w-12 h-12;
+}
+
+nav > .logo > span {
+  @apply uppercase font-extrabold tracking-wider;
 }

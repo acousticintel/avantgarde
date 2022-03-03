@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const contVar = {
@@ -66,14 +67,20 @@ export default function About() {
       <motion.div variants={textVar} className="text">
         <motion.h1 variants={riseVar}>Book a meeting with us</motion.h1>
         <motion.p variants={riseVar}>
-        We are only a calendar schedule away from listening to you and figuring out your new together.
+          We are only a calendar schedule away from listening to you and
+          figuring out your new together.
         </motion.p>
         <motion.button variants={riseVar}>Join us</motion.button>
       </motion.div>
       <motion.div variants={swingVar} className="content">
+        {/*
         <video autoPlay muted loop>
           <source src="assets/demo.mp4" />
         </video>
+        */}
+        <div className="image">
+          <Image classname="pic" src="/assets/calender.svg" layout="fill" />
+        </div>
       </motion.div>
     </motion.section>
   );

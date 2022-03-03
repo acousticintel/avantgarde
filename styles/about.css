@@ -28,3 +28,7 @@
 .about .content video{
   @apply w-full h-96 object-contain;
 }
+
+.about .content > .image{
+  @apply w-full h-96 object-cover;
+}

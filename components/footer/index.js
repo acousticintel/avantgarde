@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 import {
   FaConnectdevelop,
   FaFacebook,
@@ -11,13 +11,12 @@ export default function Footer() {
     <footer>
       <div className="cont">
         <div>
-          <a>
-            <FaConnectdevelop
-              size="3em"
-              className="text-purple-200 animate-spin"
-            />
-            <span className="uppercase font font-extrabold tracking-wider text-purple-200">Avant Garde</span>
-          </a>
+          <div className="logo">
+            <div>
+              <Image src="/assets/icon.png" className="bounce" layout="fill" />
+            </div>
+            <span>Avant Garde</span>
+          </div>
           <span className="font-light">
             Innovation and Creative Agency providing solutions for our clients’
             problems.

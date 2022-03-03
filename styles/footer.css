@@ -21,3 +21,15 @@ footer > .cont a {
 footer > .cont a > span{
   @apply  ml-3;
 }
+
+footer > .cont .logo {
+  @apply flex items-center text-orange-600 my-3;
+}
+
+footer > .cont .logo > div {
+  @apply relative w-12 h-12;
+}
+
+footer > .cont .logo > span {
+  @apply uppercase font-extrabold tracking-wider;
+}

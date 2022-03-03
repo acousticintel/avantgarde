@@ -23,3 +23,7 @@
 .hero .content video{
   @apply w-full h-96 object-cover;
 }
+
+.hero .content {
+  @apply w-full h-full relative object-contain;
+}

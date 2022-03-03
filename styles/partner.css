@@ -24,7 +24,7 @@
 }
 
 .partner-logo > span{
-  @apply font-light text-4xl capitalize text-slate-400;
+  @apply font-light text-xl capitalize text-slate-400;
 }
 
 .test{

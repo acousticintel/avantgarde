@@ -1,11 +1,18 @@
+import Image from "next/image";
 import { FaConnectdevelop } from "react-icons/fa";
 
 export default function Navbar() {
   return (
     <nav>
-      <div>
-        <FaConnectdevelop size="3em" className="animate-spin" />
-        <span className="uppercase font font-extrabold tracking-wider">
+      <div className='logo'>
+        <div>
+          <Image
+            src='/assets/icon.png'
+            className="bounce"
+            layout="fill"
+          />
+        </div>
+        <span>
           Avant Garde
         </span>
       </div>
