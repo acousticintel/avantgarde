@@ -24,12 +24,12 @@ html {
 } 
 
 body{
-  @apply font-body custom-scroll text-slate-900;
+  @apply font-body custom-scroll text-logo;
 }
 
 /* width */
 .custom-scroll::-webkit-scrollbar {
-  @apply w-2 h-2;
+  @apply w-2 h-2 mt-1;
 }
 
 /* Track */
@@ -39,8 +39,12 @@ body{
 
 /* Handle */
 .custom-scroll::-webkit-scrollbar-thumb {
-  @apply bg-purple-900 hover:bg-purple-700 rounded-full 
+  @apply bg-orange-600 hover:bg-orange-500 rounded-full 
   bg-opacity-70 transition-colors duration-500;
+}
+
+.sec-under{
+  @apply h-0.5 w-8 rounded-full mx-auto my-1 bg-orange-600;
 }
 
 @layer utilities {

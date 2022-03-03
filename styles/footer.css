@@ -1,5 +1,5 @@
 footer{
-  @apply bg-slate-900 text-white shrink py-6;
+  @apply bg-logo text-white shrink py-6;
 }
 
 footer > .cont{

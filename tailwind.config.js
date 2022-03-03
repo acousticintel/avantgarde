@@ -7,11 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        logo: "#000537 ",
+      },
       fontFamily: {
         body: ["Outfit", ...defaultTheme.fontFamily.sans],
       },
       animation: {
-        blob: "blob 5s infinite",
+        blob: "blob 10s infinite",
       },
       keyframes: {
         blob: {

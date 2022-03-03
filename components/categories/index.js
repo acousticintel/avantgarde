@@ -63,6 +63,7 @@ export default function Categories() {
       className="cat-cont"
     >
       <motion.h4 variants={riseVar}>Top Categories</motion.h4>
+      <motion.div variants={riseVar} className='sec-under'/>
       <motion.main variants={cardContVar} className="cat-sec">
         <Script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js" />
         <motion.div variants={riseVar} className="cat-card">
@@ -70,7 +71,7 @@ export default function Categories() {
             <lord-icon
               src="https://cdn.lordicon.com/ochimkct.json"
               trigger="morph-two-way"
-              colors="primary:#121331,secondary:#8930e8"
+              colors="primary:#000537,secondary:#f97316"
               style={{ width: "150px", height: "150px" }}
             />
           </div>
@@ -82,7 +83,7 @@ export default function Categories() {
             <lord-icon
               src="https://cdn.lordicon.com/zpxybbhl.json"
               trigger="morph-two-way"
-              colors="primary:#121331,secondary:#8930e8"
+              colors="primary:#000537,secondary:#f97316"
               style={{ width: "150px", height: "150px" }}
             />
           </div>
@@ -96,7 +97,7 @@ export default function Categories() {
             <lord-icon
               src="https://cdn.lordicon.com/gqdnbnwt.json"
               trigger="morph-two-way"
-              colors="primary:#121331,secondary:#8930e8"
+              colors="primary:#000537,secondary:#f97316"
               style={{ width: "150px", height: "150px" }}
             />
           </div>
@@ -111,7 +112,7 @@ export default function Categories() {
             <lord-icon
     src="https://cdn.lordicon.com/qghrdngw.json"
               trigger="morph-two-way"
-              colors="primary:#121331,secondary:#8930e8"
+              colors="primary:#000537,secondary:#f97316"
               style={{ width: "150px", height: "150px" }}
             />
           </div>
