@@ -81,6 +81,7 @@ export default function Partners() {
                   src={p.src}
                   className="w-full h-full object-contain"
                   layout="fill"
+                  alt="partners"
                 />
               </div>
               <span>{p.name}</span>

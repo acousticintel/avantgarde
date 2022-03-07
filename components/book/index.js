@@ -44,22 +44,37 @@ const riseVar = {
   },
 };
 
-export default function Hero() {
+const swingVar = {
+  hide: {
+    opacity: 0,
+    scale: 0,
+  },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      duration: 0.25,
+    },
+  },
+};
+
+export default function Book() {
   return (
     <motion.section
+      id="book"
       initial="hide"
       animate="show"
       variants={contVar}
-      className="hero"
+      className="book"
     >
       <motion.div variants={textVar} className="text">
-        <motion.h1 variants={riseVar}>Create your new with us</motion.h1>
+        <motion.h1 variants={riseVar}>Book a meeting with us</motion.h1>
         <motion.p variants={riseVar}>
-          We are an innovation and creative agency providing solutions for our
-          clients’ problems.
+          We are only a calendar schedule away from listening to you and
+          figuring out your new together.
         </motion.p>
-        <Link to="about" smooth={true}>
-          <motion.button variants={riseVar}>Join Us</motion.button>
+        <Link to="contact" smooth={true}>
+          <motion.button variants={riseVar}>Contact Us</motion.button>
         </Link>
       </motion.div>
       <motion.div variants={riseVar} className="content">
@@ -68,14 +83,8 @@ export default function Hero() {
           <source src="assets/demo.mp4" />
         </video>
         */}
-
         <div className="image">
-          <Image
-            className="pic"
-            src="/assets/product_iteration.svg"
-            layout="fill"
-            alt="hero"
-          />
+          <Image className="pic" src="/assets/calender.svg" layout="fill" alt="calender"/>
         </div>
       </motion.div>
     </motion.section>

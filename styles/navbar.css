@@ -1,5 +1,5 @@
 nav {
-  @apply container mx-auto shrink flex px-5 py-8 uppercase ;
+  @apply container mx-auto shrink flex flex-wrap px-5 py-8 uppercase ;
 }
 
 nav > div {
@@ -7,11 +7,15 @@ nav > div {
 }
 
 nav > div:first-child {
-  @apply text-orange-600 grow;
+  @apply text-orange-600 grow justify-center sm:justify-start;
 }
 
 nav > div:last-child{
   @apply flex grow justify-around;
+}
+
+nav > div:last-child  > *{
+  @apply ml-4;
 }
 
 nav > a {

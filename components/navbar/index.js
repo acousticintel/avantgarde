@@ -1,25 +1,25 @@
 import Image from "next/image";
-import { FaConnectdevelop } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
     <nav>
-      <div className='logo'>
+      <div className="logo">
         <div>
-          <Image
-            src='/assets/icon.png'
-            className="bounce"
-            layout="fill"
-          />
+          <Image src="/assets/icon.png" className="bounce" alt="logo" layout="fill" />
         </div>
-        <span>
-          Avant Garde
-        </span>
+        <span>Avant Garde</span>
       </div>
       <div>
-        <a>Home</a>
-        <a>About</a>
-        <a>Contact US</a>
+        <Link activeClass="active" to="home" spy={true} smooth={true}>
+          Home
+        </Link>
+        <Link to="about" spy={true} smooth={true}>
+          About
+        </Link>
+        <Link to="book" spy={true} smooth={true}>
+          Contact
+        </Link>
       </div>
     </nav>
   );

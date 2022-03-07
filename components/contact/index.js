@@ -4,7 +4,6 @@ import Swal from "sweetalert2";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-//const MySwal = withReactContent(Swal);
 const riseVar = {
   hide: {
     opacity: 0,
@@ -15,7 +14,7 @@ const riseVar = {
     y: 0,
     scale: 1,
     transition: {
-      ease: 'easeOut',
+      ease: "easeOut",
       duration: 0.25,
     },
   },
@@ -46,7 +45,7 @@ const formChildrenVariant = {
     transition: {
       type: "spring",
       mass: 0.8,
-      damping: 12,
+      damping: 5,
     },
   },
 };
@@ -127,7 +126,7 @@ export default function Contact() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: "POST",
-      url: "https://formspree.io/mgerbjzz ",
+      url: "https://formspree.io/f/mpzbrjzv",
       data: inputs,
     })
       .then((response) => {
@@ -141,9 +140,10 @@ export default function Contact() {
       });
   };
   return (
-    <section className="contact" ref={ref}>
+    <section id="contact" className="contact" ref={ref}>
       <div className="cont">
-      <motion.h4 variants={riseVar}>Contact Us</motion.h4>
+        <motion.h4 variants={riseVar}>Contact Us</motion.h4>
+        <motion.div variants={riseVar} className="sec-under" />
         <motion.form
           onSubmit={handleOnSubmit}
           variants={formVariant}

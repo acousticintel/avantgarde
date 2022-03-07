@@ -38,8 +38,9 @@ const riseVar = {
     y: 0,
     scale: 1,
     transition: {
-      ease: "easeOut",
-      duration: 0.25,
+      type: "spring",
+      mass: 0.8,
+      damping: 5,
     },
   },
 };
@@ -56,6 +57,7 @@ export default function Categories() {
 
   return (
     <motion.section
+      id="about"
       initial="hide"
       ref={ref}
       animate={controls}
@@ -63,7 +65,7 @@ export default function Categories() {
       className="cat-cont"
     >
       <motion.h4 variants={riseVar}>Top Categories</motion.h4>
-      <motion.div variants={riseVar} className='sec-under'/>
+      <motion.div variants={riseVar} className="sec-under" />
       <motion.main variants={cardContVar} className="cat-sec">
         <Script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js" />
         <motion.div variants={riseVar} className="cat-card">
@@ -110,7 +112,7 @@ export default function Categories() {
         <motion.div variants={riseVar} className="cat-card">
           <div className="h-40">
             <lord-icon
-    src="https://cdn.lordicon.com/qghrdngw.json"
+              src="https://cdn.lordicon.com/qghrdngw.json"
               trigger="morph-two-way"
               colors="primary:#000537,secondary:#f97316"
               style={{ width: "150px", height: "150px" }}
