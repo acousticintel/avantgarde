@@ -39,7 +39,7 @@ const riseVar = {
 
 const partners = [
   { name: "Intel", src: "/assets/intel.png" },
-  { name: "WEE Center", src: "/assets/wee_center.png" },
+  { name: "WEEE Centre", src: "/assets/wee_center.png" },
   { name: "Generation Kenya", src: "/assets/generation.png" },
   { name: "ACAT", src: "/assets/acat.png" },
 ];

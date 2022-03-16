@@ -20,7 +20,7 @@ export default function Footer() {
           <Link href="tel:+254784471476">
             <a className="flex">
               <FaPhoneAlt />
-              <span>+254784471476</span>
+              <span>+254 784 471 476</span>
             </a>
           </Link>
           <Link href="mailto:info@avantgardecontingent.com">

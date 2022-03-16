@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
           <Image src="/assets/icon.png" className="bounce" alt="logo" layout="fill" />
         </div>
-        <span>Avant Garde</span>
+        <span>Avant Garde C.</span>
       </div>
       <div>
         <Link activeClass="active" to="home" spy={true} smooth={true}>
