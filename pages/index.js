@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Head>
-        <title>AVANT GARDE</title>
+        <title>Avant Garde Contingent</title>
         <meta
           name="description"
           content="We are an innovation and creative agency providing solutions for our

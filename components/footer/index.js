@@ -1,10 +1,7 @@
 import Image from "next/image";
-import {
-  FaConnectdevelop,
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import Link from "next/link";
+import { FaPhoneAlt, FaLinkedin } from "react-icons/fa";
+import { MdMarkEmailRead } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -15,22 +12,23 @@ export default function Footer() {
             <div>
               <Image src="/assets/icon.png" className="bounce" layout="fill" />
             </div>
-            <span>Avant Garde</span>
+            <span>Avant Garde C.</span>
           </div>
-          <span className="font-light">
-            Innovation and Creative Agency providing solutions for our clients’
-            problems.
-          </span>
+          <span className="font-light">Innovation and Creative Agency.</span>
         </div>
         <div>
-          <a>
-            <FaFacebook />
-            <span>Facebook</span>
-          </a>
-          <a>
-            <FaTwitter />
-            <span>Twitter</span>
-          </a>
+          <Link href="tel:+254784471476">
+            <a className="flex">
+              <FaPhoneAlt />
+              <span>+254784471476</span>
+            </a>
+          </Link>
+          <Link href="mailto:info@avantgardecontingent.com">
+            <a className="flex">
+              <MdMarkEmailRead />
+              <span>info@avantgardecontingent.com</span>
+            </a>
+          </Link>
           <a>
             <FaLinkedin />
             <span>LinkedIn</span>
