@@ -14,7 +14,6 @@ const contVar = {
     opacity: 1,
     transition: {
       duration: 0.25,
-      delayChildren: 0.15,
       staggerChildren: 0.15,
       when: "beforeChildren",
     },

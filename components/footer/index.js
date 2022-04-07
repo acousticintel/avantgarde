@@ -23,13 +23,16 @@ export default function Footer() {
               <span>+254 784 471 476</span>
             </a>
           </Link>
-          <Link href="mailto:info@avantgardecontingent.com">
+          <Link href="mailto:info@avantgardec.com">
             <a className="flex">
               <MdMarkEmailRead />
-              <span>info@avantgardecontingent.com</span>
+              <span>info@avantgardec.com</span>
             </a>
           </Link>
-          <a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/avantgarde-c/"
+          >
             <FaLinkedin />
             <span>LinkedIn</span>
           </a>
