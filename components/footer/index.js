@@ -31,6 +31,7 @@ export default function Footer() {
           </Link>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/company/avantgarde-c/"
           >
             <FaLinkedin />
