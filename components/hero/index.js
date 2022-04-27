@@ -55,8 +55,8 @@ export default function Hero() {
       <motion.div variants={textVar} className="text">
         <motion.h1 variants={riseVar}>Create your new with us</motion.h1>
         <motion.p variants={riseVar}>
-          We are an innovation and creative agency providing solutions for our
-          clients’ problems.
+          We are an innovation and creative agency providing solutions for
+          emerging problems.
         </motion.p>
         <Link to="about" smooth={true}>
           <motion.button variants={riseVar}>Join Us</motion.button>
